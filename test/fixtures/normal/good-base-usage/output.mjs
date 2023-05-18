@@ -9,5 +9,5 @@ function createPostHandler() {
   attributes.set(route, route('/user/:user/posts/:post'));
   attributes.set(auth, auth('user'));
   attributes.set(can, can('create_post'));
-  $attr.__attributes__ = attributes;
+  createPostHandler.__attributes__ = attributes;
 })();
