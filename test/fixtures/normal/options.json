@@ -1,0 +1,12 @@
+{
+  "sourceType": "unambiguous",
+  "parserOpts": {
+    "plugins": [
+      "classProperties",
+      "jsx"
+    ]
+  },
+  "plugins": [
+    "babel-plugin-attributes"
+  ]
+}

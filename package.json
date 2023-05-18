@@ -1,0 +1,20 @@
+{
+  "name": "babel-plugin-attributes",
+  "version": "0.0.1",
+  "description": "attribute syntax",
+  "main": "lib",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --silent=false"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/helper-plugin-utils": "^7.21.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/helper-plugin-test-runner": "^7.18.6",
+    "babel-plugin-attributes": ".",
+    "jest": "^29.5.0"
+  }
+}
