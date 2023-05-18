@@ -1,12 +1,22 @@
 {
   "name": "babel-plugin-attributes",
   "version": "0.0.1",
-  "description": "attribute syntax",
+  "description": "add attribute code generation on function declarations",
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "attributes"
+  ],
+  "homepage": "https://github.com/jan53n/babel-plugin-attributes",
+  "author": "Jansen N. J <60tb25rch@mozmail.com> (https://jnsn.in)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jan53n/babel-plugin-attributes.git"
+  },
   "main": "lib",
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --silent=false"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "@babel/helper-plugin-utils": "^7.21.5"
