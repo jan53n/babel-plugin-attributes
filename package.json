@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-attributes",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "add attribute code generation on function declarations",
   "keywords": [
     "babel",
