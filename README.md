@@ -40,12 +40,19 @@ npm install babel-plugin-attributes --save-dev
 
 | Option            | Description                                                | Default Value |
 | ----------------- | ---------------------------------------------------------- | ------------- |
-| attrFunctionName  | The valid function name to be used for attribute functions. | `$attr`       |
+| attrFunctionName  | Valid function name to be used to identify attribute calls | `$attr`       |
+| attrPropertyName  | Valid object property name that is used to store attribute map | `__attributes__`       |
 
 ## Usage
 
 ```json
 {
-  "plugins": ["babel-plugin-attributes", { "attrFunctionName": "$attr" }]
+  "plugins": [
+    "babel-plugin-attributes",
+    {
+      "attrFunctionName": "$attr",
+      "attrPropertyName": "__attributes__"
+    }
+  ]
 }
 ```
