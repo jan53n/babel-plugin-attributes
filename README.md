@@ -2,6 +2,8 @@
 
 A Babel plugin that enhances JavaScript functions with custom attributes, providing additional metadata and annotations.
 
+[![Node.js CI](https://github.com/jan53n/babel-plugin-attributes/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/jan53n/babel-plugin-attributes/actions/workflows/node.js.yml)
+
 ## Example
 
 **Input**
