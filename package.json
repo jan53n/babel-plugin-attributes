@@ -13,9 +13,6 @@
     "type": "git",
     "url": "https://github.com/jan53n/babel-plugin-attributes.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/jan53n"
-  },
   "main": "lib",
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --silent=false",
