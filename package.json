@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-attributes",
-  "version": "0.0.4",
+  "version": "0.0.3",
   "description": "add attribute code generation on function declarations",
   "keywords": [
     "babel",
@@ -18,12 +18,12 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --silent=false",
     "lint": "eslint ."
   },
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
-    "@babel/helper-plugin-utils": "^7.21.5"
+    "@babel/helper-plugin-utils": "^7.21.5",
+    "@babel/core": "^7.21.8"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.8",
     "@babel/helper-plugin-test-runner": "^7.18.6",
     "babel-plugin-attributes": ".",
     "eslint": "^8.40.0",
