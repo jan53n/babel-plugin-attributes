@@ -18,7 +18,7 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --silent=false",
     "lint": "eslint ."
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@babel/helper-plugin-utils": "^7.21.5",
     "@babel/core": "^7.21.8"
